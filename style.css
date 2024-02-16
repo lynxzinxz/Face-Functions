@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noticia+Text&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url(img/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-content {
+    /* position: relative; */
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    left: 1.9in;
+}
+
+header {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(240, 175, 193);
+    text-shadow: 6px 3px 10px black;
+    letter-spacing: 2px;
+    top: 40vh;
+    transform: translateY(40px);
+    font-size: 35px;
+    font-family: 'Dela Gothic One', sans-serif;
+
+}
+
+#faceless {
+    height: auto;
+    width: 800px;
+    right: 400px;
+    top: 14.5vh;
+}
+
+img {
+    position: absolute;
+}
+
+#eyes {
+    height: auto;
+    width: 30%;
+    left: -1.1in;
+    top: 33vh;
+}
+
+#nose {
+    height: auto;
+    width: 5%;
+    top: 50vh;
+    left: -10px;
+}
+
+#mouth {
+    height: auto;
+    width: 9%;
+    top: 58vh;
+    left: -22px;
+}
+
+#description {
+    display: none;
+    background-color: transparent;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(53, 51, 51, 0.2));
+    backdrop-filter: blur(4px);
+    width: 35%;
+    padding: 3%;
+    position: absolute;
+    top: 25vh;
+    left: 90vh;
+    box-shadow: 1px 2px 3px 1px black;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#header{
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 5px solid palevioletred;
+    width: 40%;
+    }
+
+h2 {
+    font-family: 'Dela Gothic One', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px black;
+    color: rgb(243, 184, 195);
+    padding-bottom: 5px;
+}
+
+.buttons-container {
+    height: auto;
+    width: 30%;
+    top: 30vh;
+    right: 25vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8%;
+}
+ 
+.button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    width: 100px;
+    margin-top: 5%;
+    padding:  5px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 0px   rgb(155, 142, 119);
+    color: palevioletred;
+    background-color: rgb(230, 218, 197);
+    transition: transform 0.1s ease-in-out;
+}
+
+.button:active {
+    box-shadow: 0 0 0 black;
+    transform: translateY(px);
+}
+    
+.button:hover {
+    color:rgb(247, 245, 247);
+    background-color: palevioletred;
+}
